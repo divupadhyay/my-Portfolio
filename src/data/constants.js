@@ -1,3 +1,4 @@
+
 export const Bio = {
   name: "Divyansh Upadhyay",
   roles: [
@@ -8,7 +9,7 @@ export const Bio = {
     "Hello and welcome! I'm Divyansh Upadhyay, a passionate full stack developer and programmer with a knack for crafting robust and scalable web applications. In this portfolio, I showcase my journey through various projects that highlight my skills in both frontend and backend development, as well as my proficiency in handling databases and deploying applications..",
   github: "https://github.com/divupadhyay",
   resume:
-    "https://drive.google.com/file/d/18H3sTLqmteZr_PDGXeCBcl84N0S7e1f7/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1gILiKC0UvudmF5TnioMfYd0YpMz5Kem3/view?usp=drivesdk",
   linkedin: "https://www.linkedin.com/in/divupadhyay/",
   insta: "https://www.instagram.com/_._divyansh__/",
   facebook: "https://www.facebook.com/profile.php?id=100008552088954",
@@ -206,11 +207,10 @@ export const projects = [
   {
     id: 9,
     title: "PodiGo",
-    date: "April 2023 - Present",
+    date: "April 2024 - Present",
     description:
       "An online podcast streaming web application , where a user can watch and upload podcasts, site contains various features like searching adding favourites which are implemented using reactjs and javascript(frontend), the backend of the application is in progress.",
-    image:
-      "https://private-user-images.githubusercontent.com/165560426/351448702-be4d115f-b897-4122-b329-7a3bf6b73ef1.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjE5MTM0MjQsIm5iZiI6MTcyMTkxMzEyNCwicGF0aCI6Ii8xNjU1NjA0MjYvMzUxNDQ4NzAyLWJlNGQxMTVmLWI4OTctNDEyMi1iMzI5LTdhM2JmNmI3M2VmMS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNzI1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDcyNVQxMzEyMDRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1mZWI5Mzc5MGVjYmJkMGYxYmNjMTM3OTZiMzk4ODU0NTlmYTJjNDQzMmIwYzY0NzY1Yzc2MDBjNzI1MjI0M2MzJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.PIZ_g_LyHgdqjAPZcmc4Wd6X5ZtciR-pbhU9quV6EZU",
+    image:"https://media.licdn.com/dms/image/D562DAQF-NMS_Bs4NHw/profile-treasury-image-shrink_800_800/0/1721988632138?e=1722596400&v=beta&t=V76AspMqv8cu04sPB9-uBT-8i65iZ_PEQIjMqra9fgQ",
     tags: [
       "React Js",
       "JavaScript",
@@ -229,7 +229,7 @@ export const projects = [
     description:
       "This project is an ATM (Automated Teller Machine) simulator implemented in Java. An ATM simulator mimics the functionalities of a real ATM machine, allowing users to perform basic banking operations such as withdrawing cash, depositing funds, checking balances, and transferring money between accounts.",
     image:
-      "https://private-user-images.githubusercontent.com/165560426/351743012-f83efa68-235d-43a1-8e82-c8aca608b5f5.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjE5MTM0OTMsIm5iZiI6MTcyMTkxMzE5MywicGF0aCI6Ii8xNjU1NjA0MjYvMzUxNzQzMDEyLWY4M2VmYTY4LTIzNWQtNDNhMS04ZTgyLWM4YWNhNjA4YjVmNS5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNzI1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDcyNVQxMzEzMTNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jZDU3MDQwNDlkZThjOGExOTEyYzFmOWZmZGFkNzlmNDNjMGQyMDJkNjI3MWM4Mjc1MmIxZDRmOGRjM2I2NDAyJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.4QuclMkI5UgSmfoLujcshS8i4uEfwMOCWxsBUqEMIuk",
+      "https://media.licdn.com/dms/image/D562DAQFeawD5TUgdMw/profile-treasury-image-shrink_8192_8192/0/1721988823528?e=1722596400&v=beta&t=7tnY19LdYdXxmeKyMjec06lTXZQ971Bsq3qA88RMx7U",
     tags: [
       "Java",
       "Swing",
@@ -247,19 +247,19 @@ export const projects = [
     description:
       "This project is a classic Snake game implemented in Java. The Snake game is a simple and timeless arcade game where the player controls a snake that moves around a bounded area, eating food pellets to grow longer. The game ends when the snake collides with itself or with the boundaries of the playing area.",
     image:
-      "https://private-user-images.githubusercontent.com/165560426/351748445-fc108026-8a7c-4993-a065-357cb702b0bb.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjE4MzA2NTYsIm5iZiI6MTcyMTgzMDM1NiwicGF0aCI6Ii8xNjU1NjA0MjYvMzUxNzQ4NDQ1LWZjMTA4MDI2LThhN2MtNDk5My1hMDY1LTM1N2NiNzAyYjBiYi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNzI0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDcyNFQxNDEyMzZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1lOGY3ODE3MzQ0MmQ3N2FmYjFjMDZmMGQ1Y2RmN2I1Njk0ODlmMzJmYWQxYzIyYzRhNTViMWVmNjJiZGZmNTc4JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.6auarqHMNOb8yC9fLLYzpMqfSf8z3tq7DibL5G_yom4",
-    tags: ["Java", "Swing", "AWT"],
+      "https://media.licdn.com/dms/image/D562DAQEtXeY-FKv_dA/profile-treasury-image-shrink_1920_1920/0/1721988885377?e=1722596400&v=beta&t=D5PlkhYaHzGmJItPgYCpK_0Q310seqat7J5d3fU9RWE",
+    tags: ["Java", "Swing", "AWT","IntelliJ"],
     category: "java app",
     github: "https://github.com/divupadhyay/Snake-Game",
   },
   {
     id: 3,
     title: "Netflix Landing Page Clone",
-    date: "Sept 2023 - Oct 2023",
+    date: "Sept 2023 - Sept 2023",
     description:
       "Step into the world of web development with my Netflix landing page clone, crafted using HTML, CSS, and JavaScript. This project pays homage to Netflix's sleek design and functionality, featuring a responsive layout that adapts seamlessly across devices. From dynamic movie thumbnails to interactive modal dialogs, every element is meticulously designed to replicate the Netflix browsing experience. Explore a curated selection of mock movies and TV shows organized into genres, showcasing my proficiency in frontend development and attention to detail. Whether you're a developer, designer, or Netflix enthusiast, this project showcases my ability to create immersive web experiences with a focus on usability and visual appeal.",
     image:
-      "https://private-user-images.githubusercontent.com/165560426/351761769-949bbd30-94db-4887-8c3a-f55491cb7b8f.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjE5MTM1NDAsIm5iZiI6MTcyMTkxMzI0MCwicGF0aCI6Ii8xNjU1NjA0MjYvMzUxNzYxNzY5LTk0OWJiZDMwLTk0ZGItNDg4Ny04YzNhLWY1NTQ5MWNiN2I4Zi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNzI1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDcyNVQxMzE0MDBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hMzAzMzhjZjFmMGEyOGFhMmQ0Njc4N2M0OTVjY2VhOWYwNWQ4MDk4MTJiMTUyZTUxNzk2YjZiN2EyNWMxMjlhJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.KV7r17QnFhoPDwxk7XlaScpQgwrwmGJfjsJOFB_r2As",
+      "https://media.licdn.com/dms/image/D562DAQEWyp1a9357GA/profile-treasury-image-shrink_800_800/0/1721989024694?e=1722596400&v=beta&t=HUeBFUFcRTqGzitYMKZyk4wqE23PYtIuGND6C-ikMLQ",
     tags: ["HTML", "CSS", "JavaScript"],
     category: "web app",
     github: "https://github.com/divupadhyay/Netflix_Landing_Page_Clone",
