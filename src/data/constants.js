@@ -22,7 +22,7 @@ export const skills = [
       {
         name: "JAVA",
         image:
-          "https://img.icons8.com/?size=100&id=13679&format=png&color=000000",
+          "https://img.icons8.com/?size=100&id=13679&format=png&color=000000", alt:"none",
       },
       {
         name: "JavaScript",
