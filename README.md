@@ -20,6 +20,8 @@ React Best Practices: I've learned and implemented React best practices, such as
 State Management: I've gained experience in managing state and props using React Hooks.
 Accessibility: I've learned about accessibility guidelines and implemented them in the project.
 Responsive Design: I've developed skills in creating responsive designs that work seamlessly across various devices and screen sizes.
+
+
 Conclusion:
 
 This portfolio project demonstrates my ability to design and develop modern web applications using React. I'm proud of the work I've done, and I'm excited to continue learning and growing as a developer. I hope you enjoy exploring my project, and I look forward to the opportunity to discuss it further!
