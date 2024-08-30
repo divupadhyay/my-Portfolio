@@ -2,17 +2,19 @@
 export const Bio = {
   name: "Divyansh Upadhyay",
   roles: [
-    "Full Stack Developer",
+    "MERN Stack Developer",
     "Programmer",
+    "Prob Solving Specialist"
   ],
   description:
     "Hello and welcome! I'm Divyansh Upadhyay, a passionate full stack developer and programmer with a knack for crafting robust and scalable web applications. In this portfolio, I showcase my journey through various projects that highlight my skills in both frontend and backend development, as well as my proficiency in handling databases and deploying applications..",
   github: "https://github.com/divupadhyay",
   resume:
-    "https://drive.google.com/file/d/1gILiKC0UvudmF5TnioMfYd0YpMz5Kem3/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1pV7HQfg7qWqsXwd3ENqUK7fuVtexWe5k/view?usp=drivesdk",
   linkedin: "https://www.linkedin.com/in/divupadhyay/",
   insta: "https://www.instagram.com/_._divyansh__/",
   facebook: "https://www.facebook.com/profile.php?id=100008552088954",
+  leetcode:"https://leetcode.com/u/divyansh_3010/",
 };
 
 export const skills = [
@@ -132,7 +134,16 @@ export const skills = [
         image:
           "https://th.bing.com/th/id/OIP.ev0hMHHlKjpQ19nJ23TSmwHaGq?rs=1&pid=ImgDetMain",
       },
-      
+      {
+        name: "TensorFlow",
+        image:
+          "https://coqube.com/wp-content/uploads/2018/05/Tensorflow_logo.svg-800x856.png",
+      },
+      {
+        name: "LeetCode",
+        image:
+          "https://leetcode.com/static/images/LeetCode_logo.png",
+      },
     ],
   },
 ];
@@ -140,8 +151,27 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://globalprimenews.com/wp-content/uploads/2022/02/IMG-20220226-WA0017.jpg",
+    img: "https://firebasestorage.googleapis.com/v0/b/my-portfolio-5d4b6.appspot.com/o/assisto_technologies_pvt_ltd_logo.jpg?alt=media&token=156ed277-d7d1-470a-8bbe-c2da8aacd180",
     role: "Web Developer Intern",
+    company: "Assisto Technologies Pvt Ltd",
+    date: "July 2024 - August 2024",
+    desc: "Was tasked with designing and developing a full-stack web application utilizing the MERN Stack. The project involved creating a responsive and intuitive user interface using React.js and CSS, building a  API using Node.js and Express.js to  interact with the MongoDB database, and implementing robust user authentication and authorization mechanisms.",
+    skills: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React Js",
+      "Redux",
+      "NodeJs",
+      "ExpressJs",
+      "MongoDB"
+    ],
+    doc:"https://firebasestorage.googleapis.com/v0/b/my-portfolio-5d4b6.appspot.com/o/cert1.jpg?alt=media&token=2d747952-ed2a-48f7-b66b-019e60417bfa",
+  },
+  {
+    id: 0,
+    img: "https://globalprimenews.com/wp-content/uploads/2022/02/IMG-20220226-WA0017.jpg",
+    role: "Frontend Web Developer Intern",
     company: "BSES Yamuna Power Limited",
     date: "September 2023 - December 2023",
     desc: "Developed and maintained a web application using frontend components.",
@@ -152,7 +182,7 @@ export const experiences = [
       "React Js",
       "Redux",
     ],
-    doc: "",
+    doc:"https://firebasestorage.googleapis.com/v0/b/my-portfolio-5d4b6.appspot.com/o/cert2.jpg?alt=media&token=4d078c2b-1b41-4c9f-92eb-9240228ea890",
   },
   {
     id: 0,
@@ -169,7 +199,7 @@ export const experiences = [
       "Persuasive",
       "Empathetic Attitude"
     ],
-    doc: "https://media.licdn.com/dms/image/D562DAQGM5c8WvBzDiA/profile-treasury-image-shrink_800_800/0/1721586858708?e=1722434400&v=beta&t=b1wp9Sq4VD7wUStwqDgcAfSxL8PyipsdQWpOVWritfQ",
+    doc:"https://firebasestorage.googleapis.com/v0/b/my-portfolio-5d4b6.appspot.com/o/cert3.jpg?alt=media&token=4271068e-3a61-4ec1-a24a-3c7f9266a758",
   },
 ];
 
@@ -206,11 +236,11 @@ export const education = [
 export const projects = [
   {
     id: 9,
-    title: "PodiGo",
-    date: "April 2024 - Present",
+    title: "Tomato-A Food App",
+    date: "July 2024 - August 2024",
     description:
-      "An online podcast streaming web application , where a user can watch and upload podcasts, site contains various features like searching adding favourites which are implemented using reactjs and javascript(frontend), the backend of the application is in progress.",
-    image:"https://media.licdn.com/dms/image/D562DAQF-NMS_Bs4NHw/profile-treasury-image-shrink_800_800/0/1721988632138?e=1722596400&v=beta&t=V76AspMqv8cu04sPB9-uBT-8i65iZ_PEQIjMqra9fgQ",
+      "Tomato is a cutting-edge food delivery app built with the MERN stack (MongoDB, Express.js, React, Node.js). Enjoy a seamless user experience with a dynamic, responsive interface, real-time order tracking, and personalized recommendations. From quick bites to gourmet meals, Tomato brings your favorite food right to your door with the power and efficiency of modern web technologies. Download now for a taste of innovation in food delivery!",
+    image:"https://firebasestorage.googleapis.com/v0/b/my-portfolio-5d4b6.appspot.com/o/proj5.jpg?alt=media&token=beaab6a5-e441-48de-849c-f0f0651f9663",
     tags: [
       "React Js",
       "JavaScript",
@@ -218,18 +248,84 @@ export const projects = [
       "Node Js",
       "Express Js",
       "Redux",
+      "Api Integration"
+    ],
+    category: "web app",
+    github: "https://github.com/divupadhyay/Tomato-A_Food_App",
+  },
+  {
+    id: 9,
+    title: "PodiGo",
+    date: "April 2024 - Present",
+    description:
+      "An online podcast streaming web application , where a user can watch and upload podcasts, site contains various features like searching adding favourites which are implemented using reactjs and javascript(frontend), the backend of the application is in progress.",
+    image:"https://firebasestorage.googleapis.com/v0/b/my-portfolio-5d4b6.appspot.com/o/proj1.png?alt=media&token=fe59e0e8-3d1b-401a-82ba-282af110a911",
+    tags: [
+      "HTML",
+      "Tailwind CSS",
+      "React Js",
+      "JavaScript",
+      "Redux",
     ],
     category: "web app",
     github: "https://github.com/divupadhyay/PodiGo",
   },
   {
+    id: 9,
+    title: "EduVista",
+    date: "May 2024 - June 2024",
+    description:
+      "EduVista is a dynamic online learning app built with ReactJS and JavaScript, designed to empower students from classes 1-12 and beyond. Whether you're tackling school subjects or preparing for competitive exams like JEE, NEET, and CAT, EduVista offers a range of interactive courses and expert coaching to help you excel. With a user-friendly interface and engaging content, EduVista makes learning accessible and effective for every student.",
+    image:"https://firebasestorage.googleapis.com/v0/b/my-portfolio-5d4b6.appspot.com/o/proj8.png?alt=media&token=d722b7f5-bf43-4104-88d6-f0b1175fbe60",
+    tags: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "ReactJs",
+      "React-Router-Dom",
+      "Materials UI"
+    ],
+    category: "web app",
+    github: "https://github.com/divupadhyay/EduVista-PaidIntern",
+  },
+  {
+    id: 9,
+    title: "ChitChat",
+    date: "March 2024 - April 2024",
+    description:
+      "This chat application is designed for a single user to engage in a personalized and immersive messaging experience. It leverages ReactJS for the interactive front-end, Chakra UI for a sleek and accessible interface, and Firebase for real-time data management and storage",
+    image:"https://firebasestorage.googleapis.com/v0/b/my-portfolio-5d4b6.appspot.com/o/Screenshot%202024-08-31%20004053.png?alt=media&token=21008c0c-49e4-41ba-81a9-d910e60d9a4e",
+    tags: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "ReactJs",
+      "Chakra UI",
+      "FireBase"
+    ],
+    category: "web app",
+    github: "https://github.com/divupadhyay/EduVista-PaidIntern",
+  },
+  {
+    id: 2,
+    title: "Seizure Detection using EEG Signals",
+    date: "Feb 2024 - April 2024",
+    description:
+      "Our project leverages advanced deep learning networks to analyze EEG signals for accurate seizure detection. By applying sophisticated neural network models to EEG data, we enhance the identification of seizure activity, enabling timely intervention and improved patient care. This approach integrates cutting-edge AI with neurotechnology to provide reliable, real-time monitoring of epileptic seizures.",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/my-portfolio-5d4b6.appspot.com/o/proj9.jpg?alt=media&token=83af2946-cc31-45df-ad05-ed83e19b19e3",
+    tags: ["Python", "TensorFlow", "Keras","Jupyter Notebook","MatPlotLib"],
+    category: "machine learning",
+    github: "https://github.com/divupadhyay/Seizure_Detection",
+  },
+  {
     id: 1,
     title: "ATM Simulator",
-    date: "Jan 2024 - April 2024",
+    date: "Nov 2023 - Dec 2023",
     description:
       "This project is an ATM (Automated Teller Machine) simulator implemented in Java. An ATM simulator mimics the functionalities of a real ATM machine, allowing users to perform basic banking operations such as withdrawing cash, depositing funds, checking balances, and transferring money between accounts.",
     image:
-      "https://media.licdn.com/dms/image/D562DAQFeawD5TUgdMw/profile-treasury-image-shrink_8192_8192/0/1721988823528?e=1722596400&v=beta&t=7tnY19LdYdXxmeKyMjec06lTXZQ971Bsq3qA88RMx7U",
+      "https://firebasestorage.googleapis.com/v0/b/my-portfolio-5d4b6.appspot.com/o/proj2.jpg?alt=media&token=f9b114bf-a23b-4597-810f-7e6ee05b6747",
     tags: [
       "Java",
       "Swing",
@@ -243,14 +339,26 @@ export const projects = [
   {
     id: 2,
     title: "Snake Game",
-    date: "Nov 2023 - Dec 2023",
+    date: "Aug 2023 - Sept 2023",
     description:
       "This project is a classic Snake game implemented in Java. The Snake game is a simple and timeless arcade game where the player controls a snake that moves around a bounded area, eating food pellets to grow longer. The game ends when the snake collides with itself or with the boundaries of the playing area.",
     image:
-      "https://media.licdn.com/dms/image/D562DAQEtXeY-FKv_dA/profile-treasury-image-shrink_1920_1920/0/1721988885377?e=1722596400&v=beta&t=D5PlkhYaHzGmJItPgYCpK_0Q310seqat7J5d3fU9RWE",
+      "https://firebasestorage.googleapis.com/v0/b/my-portfolio-5d4b6.appspot.com/o/proj3.png?alt=media&token=a01d5009-440b-41dc-b12c-5876ad421e00",
     tags: ["Java", "Swing", "AWT","IntelliJ"],
     category: "java app",
     github: "https://github.com/divupadhyay/Snake-Game",
+  },
+  {
+    id: 4,
+    title: "Rock Vs Mine",
+    date: "Jun 2023 - July 2023",
+    description:
+      "The objective of this project is to develop a machine learning model to classify sonar data into two categories: rock and mine. The classification will be achieved using a supervised machine learning algorithm, specifically logistic regression. This model aims to enhance decision-making processes in areas such as underwater exploration, mining operations, and naval applications, where distinguishing between these two types of objects is crucial.",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/my-portfolio-5d4b6.appspot.com/o/proj7.jpg?alt=media&token=1d42d409-9f27-44d3-83a0-192abc42e77c",
+    tags: ["Python","Pandas","Numpy","Jupyter Notebook"],
+    category: "machine learning",
+    github: "https://github.com/divupadhyay/Rock_VS_Mine",
   },
   {
     id: 3,
@@ -259,7 +367,7 @@ export const projects = [
     description:
       "Step into the world of web development with my Netflix landing page clone, crafted using HTML, CSS, and JavaScript. This project pays homage to Netflix's sleek design and functionality, featuring a responsive layout that adapts seamlessly across devices. From dynamic movie thumbnails to interactive modal dialogs, every element is meticulously designed to replicate the Netflix browsing experience. Explore a curated selection of mock movies and TV shows organized into genres, showcasing my proficiency in frontend development and attention to detail. Whether you're a developer, designer, or Netflix enthusiast, this project showcases my ability to create immersive web experiences with a focus on usability and visual appeal.",
     image:
-      "https://media.licdn.com/dms/image/D562DAQEWyp1a9357GA/profile-treasury-image-shrink_800_800/0/1721989024694?e=1722596400&v=beta&t=HUeBFUFcRTqGzitYMKZyk4wqE23PYtIuGND6C-ikMLQ",
+      "https://firebasestorage.googleapis.com/v0/b/my-portfolio-5d4b6.appspot.com/o/proj4.png?alt=media&token=4bf8f7f5-3eb8-4d6f-bd0c-b30c06b52e3b",
     tags: ["HTML", "CSS", "JavaScript"],
     category: "web app",
     github: "https://github.com/divupadhyay/Netflix_Landing_Page_Clone",
